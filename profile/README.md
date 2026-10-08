@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="logo.svg" width="180" alt="Yxy">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="logo-dark.svg">
+    <img src="logo.svg" width="180" alt="Yxy">
+  </picture>
 </p>
 
 <h1 align="center">Yxy</h1>
