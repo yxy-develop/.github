@@ -69,7 +69,7 @@ Read the organization-wide
 [security policy](https://github.com/yxy-develop/.github/blob/HEAD/SECURITY.md),
 and [code of conduct](https://github.com/yxy-develop/.github/blob/HEAD/CODE_OF_CONDUCT.md)
 before opening a report. For anything else, write to
-[contact@yxy.dev](mailto:contact@yxy.dev).
+[hello@yxy.dev](mailto:hello@yxy.dev).
 
 ## License
 

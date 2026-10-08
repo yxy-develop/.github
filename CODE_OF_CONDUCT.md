@@ -36,7 +36,7 @@ This Code of Conduct applies within all community spaces, and also applies when 
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at [contact@yxy.dev](mailto:contact@yxy.dev), or privately through GitHub's **Report content** action on the issue, pull request, or discussion concerned. If the report concerns a maintainer, use GitHub's platform abuse reporting channel. Do not publish sensitive details in a public thread. All complaints will be reviewed and investigated promptly and fairly.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at [hello@yxy.dev](mailto:hello@yxy.dev), or privately through GitHub's **Report content** action on the issue, pull request, or discussion concerned. If the report concerns a maintainer, use GitHub's platform abuse reporting channel. Do not publish sensitive details in a public thread. All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the reporter of any incident.
 

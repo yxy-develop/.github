@@ -6,7 +6,7 @@
 - **Idea or design proposal:** use Ideas, or RFC / Proposals for a change to the language, the standard library or the tools.
 - **Reproducible defect:** open an Issue in the affected repository.
 - **Security vulnerability:** use the affected repository's private security advisory. Never open a public Issue or Discussion.
-- **Anything else:** write to [contact@yxy.dev](mailto:contact@yxy.dev).
+- **Anything else:** write to [hello@yxy.dev](mailto:hello@yxy.dev).
 
 For the compiler, include both lines of `yxy --version` (the version, the host target and the C compiler), the target when it is not the host, the operating system, the smallest `.yxy` program that shows the problem, the exact command and its whole output, and the trap code (`T0001`…), diagnostic code (`E0303`…) or exit status. `yxy check --json` output is useful when a diagnostic is in question.
 
