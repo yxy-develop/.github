@@ -1,0 +1,14 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Questions and community support
+    url: https://github.com/orgs/yxy-develop/discussions/categories/q-a
+    about: Ask how to use Yxy, its compiler or its tools.
+  - name: Ideas
+    url: https://github.com/orgs/yxy-develop/discussions/categories/ideas
+    about: Share an early suggestion before it becomes repository work.
+  - name: RFC / Proposals
+    url: https://github.com/orgs/yxy-develop/discussions/categories/rfc-proposals
+    about: Propose a change to the language, the standard library or the tools for design review.
+  - name: Security vulnerability
+    url: https://github.com/yxy-develop/.github/security/policy
+    about: Read the private reporting policy. Never disclose a vulnerability publicly.

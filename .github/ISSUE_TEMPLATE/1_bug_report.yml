@@ -1,0 +1,77 @@
+name: Bug report
+description: Report reproducible behavior that differs from the documented or specified behavior.
+title: "[Bug]: "
+labels: ["type:bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not report a vulnerability here. Use the repository's private security advisory.
+        Usage questions belong in [Q&A / Help](https://github.com/orgs/yxy-develop/discussions/categories/q-a).
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected repository
+      options:
+        - yxy (compiler and tools)
+        - spec (language specification)
+        - yxy.dev (website and rendered documentation)
+        - homebrew-tap (Homebrew formula)
+    validations:
+      required: true
+  - type: textarea
+    id: version
+    attributes:
+      label: Output of `yxy --version`
+      description: Both lines; they name the version, the host target and the C compiler. For the website, give the page address instead.
+      render: text
+      placeholder: |
+        yxy 0.1.0 (host aarch64-apple-darwin)
+        clang: Apple clang version 21.0.0 (...)
+    validations:
+      required: true
+  - type: input
+    id: target
+    attributes:
+      label: Target
+      description: The `--target` you built for, when it is not the host.
+      placeholder: i686-unknown-linux-gnu
+  - type: input
+    id: os
+    attributes:
+      label: Operating system and architecture
+      placeholder: macOS 26 on arm64; Ubuntu 24.04 on x86-64
+    validations:
+      required: true
+  - type: input
+    id: clang
+    attributes:
+      label: clang version
+      description: The first line of `clang --version` (or of the compiler `YXY_CC` names), when it differs from what `yxy --version` shows.
+  - type: textarea
+    id: program
+    attributes:
+      label: Minimal .yxy program
+      description: The smallest whole program, or module layout, that shows the defect.
+      render: text
+  - type: textarea
+    id: command
+    attributes:
+      label: Exact command and output
+      description: The command as you ran it, its whole output, and its exit status (`echo $?`).
+      render: shell
+    validations:
+      required: true
+  - type: input
+    id: code
+    attributes:
+      label: Trap or diagnostic code
+      description: The `T` or `E` code the output shows, if any.
+      placeholder: T0001, E0303
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Actual and expected behavior
+      description: What happened, what you expected, and where the documentation or the specification says so.
+    validations:
+      required: true

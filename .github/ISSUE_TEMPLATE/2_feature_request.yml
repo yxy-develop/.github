@@ -1,0 +1,46 @@
+name: Feature request
+description: Propose defined work for one repository.
+title: "[Feature]: "
+labels: ["type:feature", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A change to the language, the public API of the standard library, a JSON document or a diagnostic code starts as an RFC in [RFC / Proposals](https://github.com/orgs/yxy-develop/discussions/categories/rfc-proposals); a change to the language becomes a recorded decision in `spec`.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Language (spec)
+        - Standard library
+        - Compiler and tools
+        - JSON documents and diagnostics
+        - Documentation and website
+        - Packaging and installation
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Describe the user or engineering problem before proposing syntax or an API.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Required outcome
+      description: State observable acceptance criteria, such as a program that should compile and what it should print or exit with.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives and constraints
+      description: What you can write today, and what the change must not break.
+  - type: input
+    id: discussion
+    attributes:
+      label: Related Discussion or RFC
+      description: Required for a change to the language, the standard library's public API, a JSON document, a diagnostic code, or a recorded decision.
