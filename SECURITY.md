@@ -8,7 +8,7 @@ Discussion.
 Open the affected repository, select **Security**, then **Report a
 vulnerability**. The report creates a private security advisory visible only to
 the reporter and repository maintainers. If you cannot use GitHub's private
-reporting, write to [hello@yxy.dev](mailto:hello@yxy.dev) without the
+reporting, write to [help@yxy.dev](mailto:help@yxy.dev) without the
 details of the vulnerability, and a maintainer will arrange a private channel.
 
 Include what you can of:
